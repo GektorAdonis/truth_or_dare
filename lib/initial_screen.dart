@@ -22,8 +22,8 @@ class InitialScreen extends StatelessWidget {
                 Navigator.pushReplacementNamed(context, '/players-screen');
               },
               style: ButtonStyle(
-                backgroundColor:
-                    MaterialStateProperty.all(Color.fromRGBO(99, 7, 0, 1)),
+                backgroundColor: MaterialStateProperty.all(
+                    const Color.fromRGBO(99, 7, 0, 1)),
                 fixedSize: MaterialStateProperty.all<Size>(
                   Size(MediaQuery.of(context).size.width * 0.5, 20),
                 ),

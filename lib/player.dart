@@ -1,11 +1,11 @@
 class Player {
   String name;
-  Sex? sex;
+  Gender gender;
 
-  Player(this.name, this.sex);
+  Player(this.name, this.gender);
 }
 
-enum Sex {
+enum Gender {
   male,
   female,
 }
